@@ -20,9 +20,6 @@ namespace teht04
             // laskutoimitukset
             summa = luku1 + luku2 + luku3;
 
-            valisumma = luku1 + luku2 + luku3;
-
-
             //tulostus
             Console.WriteLine("Summa: " + summa);
             Console.Write("Keskiarvo: " + keskiarvo);
