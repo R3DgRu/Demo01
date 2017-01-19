@@ -22,7 +22,6 @@ namespace teht04
 
             valisumma = luku1 + luku2 + luku3;
 
-            keskiarvo = valisumma / 3;
 
             //tulostus
             Console.WriteLine("Summa: " + summa);
