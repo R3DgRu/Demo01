@@ -17,12 +17,9 @@ namespace teht04
             string line = Console.ReadLine();
             ika = int.Parse(line);
 
-            // laskutoimitukset
-            summa = luku1 + luku2 + luku3;
-
-            //tulostus
-            Console.WriteLine("Summa: " + summa);
-            Console.Write("Keskiarvo: " + keskiarvo);
+            if (ika < 18) Console.WriteLine("alaikainen");
+            else if (ika >= 18 && ika <= 65) Console.WriteLine("aikuinen");
+            else if (ika > 65) Console.WriteLine("seniori");
 
             // Wait enter
             Console.ReadLine();
