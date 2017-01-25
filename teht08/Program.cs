@@ -24,12 +24,9 @@ namespace teht08
             string line3 = Console.ReadLine();
             luku3 = int.Parse(line3);
 
-            if (luku1 > luku2 && luku1 < luku3) Console.WriteLine(luku1);
-            else if (luku2 > luku1 && luku2 > luku3) Console.WriteLine(luku2);
-            else if (luku3 > luku2 && luku3 > luku1)Console.WriteLine(luku3);
-            
-
-            
+            if (luku1 > luku2 && luku1 > luku3) Console.WriteLine("Suurin luku on: {0}", luku1); // Katsoo onko luku 1 suurin ja jos on, tulostaa sen. Jos ei, siirtyy seuraavaan.
+            else if (luku2 > luku1 && luku2 > luku3) Console.WriteLine("Suurin luku on: {0}", luku2); // Katsoo onko luku 2 suurin ja jos on, tulostaa sen. Jos ei, siirtyy seuraavaan.
+            else if (luku3 > luku2 && luku3 > luku1)Console.WriteLine("Suurin luku on: {0}", luku3); // Katsoo onko luku 3 suurin ja jos on, tulostaa sen.
 
         }
     }
